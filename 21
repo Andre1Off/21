@@ -456,3 +456,6 @@ elif level == 'сложный':
             letters_list[random_index8] + letters_list[random_index9] > 21:
         print('перебор')
         sys.exit()
+elif level != 'легкий' or level != 'нормальный' or level != 'сложный':
+    print('ошибка')
+    sys.exit()
